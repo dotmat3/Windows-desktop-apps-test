@@ -1,0 +1,16 @@
+{
+	"name": "simple-calculator",
+	"version": "0.0.1",
+	"description": "A simple calculator in Electron",
+	"main": "index.js",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"start": "electron .",
+		"pack": "electron-packager ."
+	},
+	"devDependencies": {
+		"electron": "^9.0.0",
+		"electron-packager": "^14.2.1"
+	}
+}
